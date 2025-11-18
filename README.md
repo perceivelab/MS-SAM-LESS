@@ -17,7 +17,7 @@ SER is a biologically-inspired saliency-driven modulation strategy for online co
 The proposed approach, grounded on neurophysiological evidence, significantly improves performance of state-of-the-art OCL methods, and has been shown to be superior to other multibranch solutions, either biologically-inspired (e.g., DualNet) or based on attention mechanisms (e.g., TwF).
 
 <div align="center">
- <img  title="accuracy similarity" alt="Similarity" src="./imgs/accuracy_similarity.png" style="width: 60%;"/>
+ <img  title="method overview" alt="Method" src="./imgs/Method_overview.png" style="width: 60%;"/>
 </div>
 
 ### 📄 Paper abstract
@@ -29,7 +29,7 @@ By eliminating the need for foundation models at inference time, our framework e
 This design bridges the gap between large-scale pretraining and real-world clinical deployment, offering a scalable and practical solution for MS lesion segmentation and beyond.
 
 <div align="center">
-  <img src="./imgs/Method_overview.png" style="max-width: 70%"/>
+  <img src="./imgs/results.png" style="max-width: 70%"/>
 </div>
 
 #### Read the full paper on [PRLettersw](https://).
