@@ -16,7 +16,7 @@ The official PyTorch implementation for __"SAM-Guided Prompt Learning for Multip
 MS-SAMLess is a training-time distillation framework for Multiple Sclerosis lesion segmentation that leverages SAM only during training to learn dense task-specific prompts. At inference, SAM is fully removed and replaced with a lightweight aggregator that transforms the learned prompts into segmentation masks, eliminating manual prompting and drastically reducing computational cost. The method achieves state-of-the-art performance on MSLesSeg while remaining compact, fast, and easily deployable.
 
 <div align="center">
- <img  title="method overview" alt="Method" src="./imgs/Method_overview.png" style="width: 60%;"/>
+ <img  title="method overview" alt="Method" src="./imgs/Method_overview.png" style="width: 99%;"/>
 </div>
 
 ### 📄 Paper abstract
@@ -28,7 +28,7 @@ By eliminating the need for foundation models at inference time, our framework e
 This design bridges the gap between large-scale pretraining and real-world clinical deployment, offering a scalable and practical solution for MS lesion segmentation and beyond.
 
 <div align="center">
-  <img src="./imgs/results.png" style="max-width: 70%"/>
+  <img src="./imgs/results.png" style="max-width: 90%"/>
 </div>
 
 #### Read the full paper on [PRLettersw](https://).
