@@ -49,5 +49,15 @@ python
 # 📜 Citation
 
 ```bibtex
-
+@article{PROIETTOSALANITRI2026205,
+title = {SAM-guided prompt learning for Multiple Sclerosis lesion segmentation},
+journal = {Pattern Recognition Letters},
+volume = {199},
+pages = {205-211},
+year = {2026},
+issn = {0167-8655},
+doi = {https://doi.org/10.1016/j.patrec.2025.11.018},
+author = {Federica {Proietto Salanitri} and Giovanni Bellitto and Salvatore Calcagno and Ulas Bagci and Concetto Spampinato and Manuela Pennisi},
+keywords = {Multiple Sclerosis, Segment Anything Model (SAM), Dense Prompt Learner, Brain MRI}
+}
 ```
