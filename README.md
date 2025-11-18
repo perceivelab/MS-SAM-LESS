@@ -13,8 +13,7 @@ F. Proietto Salanitri, G. Bellitto, S.Calcagno, U.Bagci, C. Spampinato, M.Pennis
 
 The official PyTorch implementation for __"SAM-Guided Prompt Learning for Multiple Sclerosis Lesion Segmentation"__. 
 
-SER is a biologically-inspired saliency-driven modulation strategy for online continual learning, which regularizes classification features using visual saliency, effectively reducing forgetting.
-The proposed approach, grounded on neurophysiological evidence, significantly improves performance of state-of-the-art OCL methods, and has been shown to be superior to other multibranch solutions, either biologically-inspired (e.g., DualNet) or based on attention mechanisms (e.g., TwF).
+MS-SAMLess is a training-time distillation framework for Multiple Sclerosis lesion segmentation that leverages SAM only during training to learn dense task-specific prompts. At inference, SAM is fully removed and replaced with a lightweight aggregator that transforms the learned prompts into segmentation masks, eliminating manual prompting and drastically reducing computational cost. The method achieves state-of-the-art performance on MSLesSeg while remaining compact, fast, and easily deployable.
 
 <div align="center">
  <img  title="method overview" alt="Method" src="./imgs/Method_overview.png" style="width: 60%;"/>
@@ -37,7 +36,7 @@ This design bridges the gap between large-scale pretraining and real-world clini
 
 ### 📂 Repository details
 
-This repo relies on the [AutoSAM Framework](https://github.com/talshaharabany/AutoSAM) which has been modified to include the features described in the **MS-SAM-LESS** paper. 
+This repo relies on the [AutoSAM Framework](https://github.com/talshaharabany/AutoSAM) which has been modified to include the features described in the **MS-SAMLess** paper. 
 
 # 💪 Training
 
