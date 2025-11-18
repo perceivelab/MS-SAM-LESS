@@ -3,7 +3,7 @@
 # SAM-Guided Prompt Learning for Multiple Sclerosis Lesion Segmentation
 F. Proietto Salanitri, G. Bellitto, S.Calcagno, U.Bagci, C. Spampinato, M.Pennisi
 
-[![prl](https://img.shields.io/badge/PRLetters_2025-_-orange?style=flat-square)](https://https://www.sciencedirect.com/science/article/pii/S0167865525003708)
+[![prl](https://img.shields.io/badge/PRLetters_2025-_-orange?style=flat-square)](https://www.sciencedirect.com/science/article/pii/S0167865525003708)
 
 
 
