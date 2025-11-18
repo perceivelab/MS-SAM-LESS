@@ -1,6 +1,6 @@
 <div align="center">    
  
-# SER: SAM-Guided Prompt Learning for Multiple Sclerosis Lesion Segmentation
+# SAM-Guided Prompt Learning for Multiple Sclerosis Lesion Segmentation
 F. Proietto Salanitri, G. Bellitto, S.Calcagno, U.Bagci, C. Spampinato, M.Pennisi
 
 [![prl](https://img.shields.io/badge/PRLetters_2025-_-orange?style=flat-square)](https://)
